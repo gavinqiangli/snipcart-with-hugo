@@ -1,0 +1,10 @@
+{{ partial "header.html" . }}
+{{ $baseurl := .Site.BaseURL }}
+
+<div>
+	{{ range $.Site.Data.store.products }}
+		{{ partial "item.html" . }}
+	{{ end }}	
+</div>
+
+{{ partial "footer.html" }}
