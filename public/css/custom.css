@@ -19,6 +19,13 @@ a{
 	color:blue;
 }
 
+a>div{
+	display:none;
+}
+a:hover>div{
+	display:block;
+}
+
 .product{
 	float:left;
 	width:300px;
