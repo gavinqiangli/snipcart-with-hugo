@@ -13,7 +13,7 @@
   
   <link rel="stylesheet" href="http://localhost:1313//css/poole.css">
   <link rel="stylesheet" href="http://localhost:1313//css/syntax.css">
-  <link rel="stylesheet" href="http://localhost:1313//css/hyde.css">
+  <link rel="stylesheet" href="/css/custom.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
 
   
@@ -30,25 +30,28 @@
 	<script type="text/javascript"
 	    id="snipcart"
 	    src="https://cdn.snipcart.com/scripts/snipcart.js"
-	    data-api-key="MzMxN2Y0ODMtOWNhMy00YzUzLWFiNTYtZjMwZTRkZDcxYzM4"></script>
+	    data-api-key="M2E5YjA3NjMtYzRiYS00YzVjLWEyYWYtNDY5ZDI0OWZhYjg5"></script>
 	
 	<link id="snipcart-theme" type="text/css"
 	    href="https://cdn.snipcart.com/themes/base/snipcart.min.css"
 	    rel="stylesheet">
 </head>
 
-<body class="">
-  <h1>Star Trek shop</h1>
+<body>
+  <header class="main">
+    <marquee>
+      <h1>Star Trek shop</h1>
+    </marquee>
+  </header>
 
-
-<div>
+<section class="main">
 	
-		<div style="float:left;width:30%">
+		<div class="product">
   <h2 id="title">Klingon dictionnary</h2>
     <div>
   		<img width="300" src="/assets/img/dictionnary.jpg" />
       <p>
-        The best Klingon dictionnary in town
+        nIvbogh tlhIngan dictionnary qaStaHvIS veng SuvwI&#39;
       </p>
   		<a href="#"
         class="snipcart-add-item"
@@ -56,16 +59,16 @@
         data-item-name="Klingon dictionnary"
         data-item-price="34.87"
         data-item-weight="15"
-        data-item-url="http://localhost:1313/store/products">
-        Buy
+        data-item-url="/">
+        Add to cart
     </a>
     </div>
  </div>
 	
-		<div style="float:left;width:30%">
+		<div class="product">
   <h2 id="title">Captain Kirk phaser</h2>
     <div>
-  		<img width="300" src="/assets/img/phaser.jpg" />
+  		<img width="300" src="/assets/img/phaser.png" />
       <p>
         The Original Series Phaser comprises a small, hand-held Type I Phaser, which slots into a larger Type II Phaser body with a removable pistol-grip.
       </p>
@@ -75,15 +78,15 @@
         data-item-name="Captain Kirk phaser"
         data-item-price="145.98"
         data-item-weight="15"
-        data-item-url="http://localhost:1313/store/products">
-        Buy
+        data-item-url="/">
+        Add to cart
     </a>
     </div>
  </div>
 		
-</div>
+</section>
 
-	<footer style="position:absolute;bottom:0">
+	<footer>
 		2015 - Snipcart integration with Hugo
 	</footer>
 	<script data-no-instant>document.write('<script src="http://'
@@ -91,3 +94,10 @@
 		+ ':1313/livereload.js?mindelay=10"></'
         + 'script>')</script></body>
 </html>
+
+<script>
+	Snipcart.execute('registerLocale', 'en', {
+		powered_by:
+		"HoS 'ej pong ngaQ ",
+	});	
+</script>

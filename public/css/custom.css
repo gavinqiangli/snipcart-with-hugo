@@ -1,0 +1,38 @@
+html,body{
+	width:100%;
+	padding:0;
+	margin:0;
+	font-family: 'Courier', Times, serif, Helvetica, sans-serif;
+}
+
+footer {
+	position:absolute;
+	bottom:0;
+}
+
+.main{
+	width:70%;
+	margin: 0 auto;
+}
+
+a{
+	color:blue;
+}
+
+.product{
+	float:left;
+	width:300px;
+	margin-right:20px;
+	margin-left:20px;
+}
+
+header{
+	top:0;
+	margin:0;
+	padding:10px;
+	font-family: "comic sans ms";
+}
+
+h1{
+	color:red;
+}
