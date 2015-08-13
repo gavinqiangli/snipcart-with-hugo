@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 
 <section class="main">
-	{{ range $.Site.Data.store.products }}
+	{{ range $.Site.Data.products }}
 		{{ partial "item.html" . }}
 	{{ end }}
 		
