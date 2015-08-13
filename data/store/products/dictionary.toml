@@ -1,6 +1,6 @@
 id = "1"
-title = "Klingon dictionnary"
-description = "nIvbogh tlhIngan dictionnary qaStaHvIS veng SuvwI'"
+title = "Klingon dictionary"
+description = "nIvbogh tlhIngan dictionary qaStaHvIS veng SuvwI'"
 url = "/"
 imgUrl = "/assets/img/dictionary.jpg"
 hover = "/assets/img/klingon.png"
